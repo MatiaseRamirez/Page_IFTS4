@@ -1,0 +1,92 @@
+/*CSS DE infoInstitucional.php y DE borrarMensaje.php*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: rgba(156, 133, 199, 0.473); */
+}
+@font-face {
+  font-family: 'Proza libre';
+  src: url('../fonts/ProzaLibre-Regular.ttf');
+   
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+.titulo{
+  background-color: rgb(147, 133, 199);
+  border-style:double;
+  margin: 1%;
+  border-color: #9f88f3;
+}
+h2{
+  width: auto;
+  display: flex;
+  font-size: xx-large;
+  margin-left: 38%;
+}
+.calendario{
+  color: rgb(8, 8, 8); 
+}
+.form-control{
+  background-color: rgb(241, 213, 213);
+  width: 10%;
+  font-size: large;
+  margin-left: 2%;
+}
+.btnBuscar{
+  background-color: rgb(226, 173, 226);
+  text-align: center;
+  font-size: large;
+  width: 14.3%;
+  border-color: #9f88f3;
+  margin-left: 3.2%;
+}
+.btnBuscar:hover{
+  color: rgb(8, 8, 8);
+  font-style: italic;
+  background-color: #9f88f3;
+  margin-top: 0.25%;
+  margin-left: 4.2%;
+  border-style: groove;
+  border-color: rgb(226, 173, 226);
+  transition:all 450ms ease-out;
+}
+.tablaInicio{
+  background-color: #f1f1f1;
+  width: 100%;
+  font-size: large;
+  line-height: 150%;
+  justify-content:space-between;
+}
+.tablaInicio td{
+  /* background-color: rgba(104, 207, 109, 0.521); */
+  background-color: #f1f1f1;
+}
+.tablaInicio .nombre{
+  /* background-color: rgba(207, 197, 104, 0.521); */
+  background-color: #f1f1f1;
+}
+.tablaInicio .fecha{
+  /* background-color: rgba(207, 197, 104, 0.521); */
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.volver{
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+.volver .pPrincipal{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.volver .pPrincipal:hover{
+  color: rgb(252, 227, 227);
+  text-decoration:underline;
+  transition: all 600ms ease;
+  font-style: italic;
+}

@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* silvero guerrero melissari */
+@font-face {
+    font-family: 'Proza libre';
+    src: url('../fonts/ProzaLibre-Regular.ttf');
+     
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+/* fin silvero guerrero melissari  */
+body {
+    /*Cargar fuentes de Google Fonts aquí*/
+    /* s g m */
+    font-family: 'Open Sans', sans-serif;
+    /* fin s g m */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 1.6rem;
+    line-height: 3rem;
+    transition: background-color .5s;
+    /* background-color: #dcaac821; */
+    opacity: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* s g m */
+    font-family: 'Proza Libre';
+    /* fin s g m */
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #767676;
+    font-weight: 400;
+    text-align: justify;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #767676;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #767676;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+}
+h4 {
+    font-size: 1.8rem;
+    color: #767676;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: justify;
+}
+h5 {
+    font-size: 1.5rem;
+    color: #767676;
+    text-decoration: none;
+    font-weight: 400;
+    /* font-style: italic;*/
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h6 {
+    font-size: 1.8rem;
+    color: #767676;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: none;
+    line-height: 1.5;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+p {
+
+}
+img {
+    max-width: 100%;
+}
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .columnas-2 {
+	flex: 0 0 calc(16% - 1rem);
+    }  
+    .columnas-3 {
+        flex: 0 0 calc(25% - 1rem);
+    }
+    .columnas-4 {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .columnas-8 {
+        flex: 0 0 calc(66.6% - 1rem);
+    }
+    .columnas-10 {
+        /*((100/12)*10)/*/
+        flex: 0 0 calc(83.3% - 1rem);
+    }
+    .columnas-12 {
+        flex: 0 0 100%;
+    }
+}

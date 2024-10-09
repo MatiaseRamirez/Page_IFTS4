@@ -1,0 +1,74 @@
+/*CSS DE eliminarPublicacion.PHP*/
+@font-face {
+  font-family: 'Proza libre';
+  src: url('../fonts/ProzaLibre-Regular.ttf');
+   
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  /* background-color: rgb(221, 221, 193); */
+  background-color: #f1f1f1;
+}
+.tituloEli{
+  margin: 2rem;
+  margin-left: auto;
+  text-align: center;
+  font-size: 4rem;
+}
+.formularioEli{
+  margin-top: 3.5rem;
+  margin-left: 35%;
+}
+.formularioEli .eli{
+  resize: vertical;
+  width: 45%;
+  height: 30px;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.botonEli{
+  margin-top: 4rem;
+  background-color: brown;
+  color: white;
+  width: 20%;
+  height: 25px;
+  border-radius: 0.4rem;
+}
+.botonEli:hover{
+  margin-left: 0.3rem;
+  margin-top: 4.3rem;
+  background-color: green;
+  color: black;
+  width: 22%;
+  height: 32px;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family:'Proza Libre';
+}
+.paginasEli{
+  margin-top: 4rem;
+}
+.paginaAtrasEli{
+  margin-left: 35%;
+  background-color: rgba(0, 0, 0, 0.190);
+  border-radius: 0.2rem;
+  color: rgb(48, 87, 138);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.paginaAtrasEli:hover{
+  background-color: rgb(221, 221, 193);
+  color: rgb(0, 0, 0);
+  font-size: 2.1rem;
+}

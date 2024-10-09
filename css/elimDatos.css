@@ -1,0 +1,33 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Proza libre';
+  src: url('../fonts/ProzaLibre-Regular.ttf');
+   
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+.bodyEliminar{
+  /* background-color: rgba(140, 68, 207, 0.267); */
+  background-color: #f1f1f1;
+  margin: 5%;
+  margin-left: 25%;
+  font-size: 6rem;
+}
+.eliminarDatos{
+  font-size: 3rem;
+  text-decoration: none;
+  /* color: rgb(168, 121, 32); */
+  color: rgb(48, 87, 138);
+}
+.eliminarDatos:hover{
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: rgb(38, 18, 112);
+}

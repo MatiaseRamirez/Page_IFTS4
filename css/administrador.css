@@ -1,0 +1,95 @@
+/*CSS DE ADMINISTRADOR.PHP*/
+
+*{
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Proza libre';
+  src: url('../fonts/ProzaLibre-Regular.ttf');
+   
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+/* body{
+  background-color: rgb(221, 221, 193); 
+ } */
+.tituloIng{
+  margin: 1rem;
+  margin-left: auto;
+  text-align: center;
+  font-size: 4rem;
+}
+.formularioIng{
+  margin-top: 1rem;
+  margin-left: 35%;
+}
+.formularioIng .ing{
+  width: 45%;
+  height: 30px;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.formularioIng .ingM{
+  display: flex;
+  resize: vertical;
+  height: 50px;
+}
+.botonIng{
+  margin-top: 2rem;
+  background-color: green;
+  color: black;
+  width: 20%;
+  height: 25px;
+  border-radius: 0.4rem;
+}
+.botonIng:hover{
+  margin-left: 0.3rem;
+  margin-top: 2.3rem;
+  background-color: rgb(99, 124, 238);
+  color: white;
+  width: 22%;
+  height: 32px;
+  font-family:'Proza Libre';
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.paginas{
+  margin-top: 4rem;
+  font-size: 1.5rem;
+}
+.paginas .atras1{
+  background-color: rgba(0, 0, 0, 0.190);
+  border-radius: 0.2rem;
+  color: rgb(48, 87, 138);
+  text-decoration: none;
+}
+.paginas .atras1:hover{
+  background-color: rgb(221, 221, 193);
+  color: rgb(0, 0, 0);
+  font-size: 2.1rem;
+}
+.paginas .atras2{
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.190);
+  border-radius: 0.2rem;
+  display: block;
+  margin-top: 2%;
+  color: rgb(48, 87, 138);
+  text-decoration: none;
+}
+.paginas .atras2:hover{
+  width: 35%;
+  background-color: rgb(221, 221, 193);
+  display: block;
+  margin-top: 2%;
+  color: rgb(0, 0, 0);
+  font-size: 2.1rem;
+  text-decoration:line;
+}
