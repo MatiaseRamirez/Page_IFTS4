@@ -1,6 +1,6 @@
 <?php
     // Conexion del Servidor
-    define('DB_SERVER', 'localhost:8081');
+    define('DB_SERVER', 'localhost');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', '');
     define('DB_NAME', 'ifts04');

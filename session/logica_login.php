@@ -27,7 +27,8 @@
         //VALIDAR CREDENCIALES
         /*si las variables no estan vacias, pasala consulta a una variable */
         if(empty($email_err) && empty($password_err)){
-            $sql = "SELECT Usuario_Id, Usuario_Nombre, Usuario_Email, Usuario_Clave FROM usuarios WHERE Usuario_Habilitado = 0 AND Usuario_Email = ?";
+        //Error en esta linea => // $sql = "SELECT Usuario_Id, Usuario_Nombre, Usuario_Email, Usuario_Clave FROM usuarios WHERE Usuario_Habilitado = 0 AND Usuario_Email = ?";
+            
             /*si recibe datos, en una variable pasa la conexion y la consulta */
             if($stmt = mysqli_prepare($conn, $sql)){
                 /* machea el interrogante con la variable*/
