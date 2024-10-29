@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../../assets/css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/navegacion.css">
+    <link rel="stylesheet" href="../../../css/navegacion.css">
+    <link rel="stylesheet" href="../../../css/estilos.css">
 
     <title>Noticias IFTS</title>
 </head>

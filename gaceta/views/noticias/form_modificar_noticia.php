@@ -6,6 +6,8 @@
     <title>Modificar Noticia</title>
     <link rel="stylesheet" href="../../assets/css/formulario.css">
     <link rel="stylesheet" href="../../../css/navegacion.css">
+    <link rel="stylesheet" href="../../../css/navegacion.css">
+    <link rel="stylesheet" href="../../../css/estilos.css">
 
 </head>
 <body>
