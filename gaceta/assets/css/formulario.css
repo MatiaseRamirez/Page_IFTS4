@@ -1,0 +1,361 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #006444;
+    font-weight: bold;
+}
+
+.titulo_panel {
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid rgba(2, 89, 210, 0.595);
+    border-radius: 15px;
+    padding: 20px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    background-color: #06ad84;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(2, 89, 210, 0.595);
+    background-color: #ffffff;
+}
+
+.img_container{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    width: min-content;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; 
+    width: 150px; 
+    height: auto; 
+    margin-bottom: 20px;
+    animation: zoom 5s infinite; 
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    animation: none;
+    transform: translateY(-5px);
+}
+
+.paginacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin: 20px 0; 
+    gap: 20px;
+}
+
+.paginacion a {
+    display: inline-block;
+    padding: 10px 15px; 
+    background-color: #00875c; 
+    color: white; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.paginacion a:hover {
+    background-color: #004932a6;
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.form_group {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form_group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select:hover {
+    border-color: #666; 
+}
+
+select:focus,
+select:active {
+    outline: none;
+    border-color: #00a7a7; 
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5); 
+}
+
+#contenido{
+    width: 100%; 
+    height: 300px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    color: #333; 
+    resize: vertical; 
+}
+
+#contenido:focus {
+    border-color: #06ad84; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(6, 173, 132, 0.5);
+}
+
+#resumen{
+    width: 100%; 
+    height: 150px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    color: #333; 
+    resize: vertical; 
+}
+
+#resumen:focus {
+    border-color: #06ad84; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(6, 173, 132, 0.5);
+}
+
+.submit_button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(0, 145, 111);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: rgba(0, 181, 139, 0.723);
+}
+
+.container-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boton_cancelar {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(190, 16, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.boton_cancelar:hover{
+    background-color: rgb(241, 0, 0);
+    font-weight: bold;
+}
+
+.boton-volver {
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(190, 16, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.boton-volver:hover {
+    background-color: rgb(241, 0, 0);
+    font-weight: bold;
+}
+
+.boton_agregar {
+    width: 150px;
+    padding: 10px;
+    background-color: #06ad84;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.boton_agregar:hover {
+    background-color: #009d76a7;
+    font-weight: bold;
+}
+
+.boton_modificar {
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(255, 187, 0, 0.897);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton_modificar:hover {
+    background-color: rgba(255, 187, 0, 0.822);
+    font-weight: bold;
+}
+
+.botones_formulario {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.boton_final {
+    padding: 10px 20px;
+    background-color: #b90000bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.boton_final:hover {
+    background-color: #f30505;
+    font-weight: bold;
+}
+
+.noticia_item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 250, 227);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.8s, border 0.8s, transform 0.8s, box-shadow 0.3s;
+}
+
+.noticia_item:hover {
+    border: 2px solid #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.noticia_item img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5px;
+}
+
+.noticia_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.noticia_contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Sin estilos para ul y li */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+li {
+    margin: 10px 0; 
+}
+
+/* Para dispositivos móviles (pantallas de hasta 600px) */
+@media (max-width: 600px) {
+    .titulo_panel {
+        font-size: 24px; 
+        padding: 15px;
+    }
+
+    .boton_agregar {
+        margin-bottom: 20px;
+    }
+
+    .container-botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .form_container {
+        margin: 10px;
+    }
+
+    .form_group {
+        margin: 5px;
+        padding: 10px;
+    }
+    
+}
