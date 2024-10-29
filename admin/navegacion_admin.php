@@ -23,7 +23,7 @@
         <a href="../session/registrar.php">
           Registar Nuevos Usuarios
         </a>
-        <a class="login" href="../session/cierre.php">
+        <a class="login" href="http://localhost/PAGE_IFTS4/session/cierre.php">
           Log Out
         </a>
       </div>
