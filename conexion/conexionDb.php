@@ -1,12 +1,12 @@
 <?php 
 
- $hostname = '127.0.0.1';
+ $hostname = 'localhost';
  $username = 'root';
  $passname = '';
  $dbname = 'ifts04';
-//  $puerto = 8081;
+ $puerto = 8081;
 
-   $conn = new mysqli($hostname, $dbname, $username, $passname);
+   $conn = new mysqli($hostname, $dbname, $username, $passname, $puerto);
   
 
   if (mysqli_connect_errno()){
@@ -29,7 +29,7 @@ function conectarDB(){
 //   die('ERROR CONECTION...'. $conn->connect_error);
 // }
 
-define('DB_SERVER', '127.0.0.1');
+define('DB_SERVER', 'localhost:8081');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'ifts04');

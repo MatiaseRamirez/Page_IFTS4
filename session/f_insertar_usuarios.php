@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>
-        ingreso al sistema
+        Registrate
     </h1>
-    <form action="comprueba_login.php" method="post">
+    <form action="insertar_usuario.php" method="post">
         <table>
             <tr>
                 <td>
@@ -30,7 +30,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit" value="Ingresar">
+                    <input type="submit" value="Guardar">
                 </td>
             </tr>
         </table>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:8081
--- Tiempo de generación: 17-10-2024 a las 01:23:25
+-- Tiempo de generación: 09-10-2024 a las 21:06:32
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
@@ -123,7 +123,6 @@ INSERT INTO `user` (`id`, `nombre_area`, `mensaje`, `password`, `fecha_publicaci
 CREATE TABLE `usuarios` (
   `id` int(1) NOT NULL,
   `email` varchar(50) DEFAULT NULL,
-  `contrasenia` varchar(50) NOT NULL,
   `password` char(60) DEFAULT NULL,
   `id_rol` int(1) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -132,14 +131,12 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `email`, `contrasenia`, `password`, `id_rol`) VALUES
-(5, 'editor@editor.com', '', '$2y$10$ma.XyeXWTY/BBHE1QK25XeN9nov/bQed9WNC4xOSd/JgLHOXxMxpi', 2),
-(6, 'admin@admin.com', '', '$2y$10$nojQzK6gNMeexVZfb5sp2ulGquZBmcor5S/WXFqsk.vo2K3etqhES', 1),
-(7, 'test@test.com', '', '$2y$10$BWs/loLc8XOrzLQPYk4czu.6G.4wj5GLSAlpfsnVXWLnCwx8kimwK', 0),
-(124, 'profe@gmail.com', '123', '$2y$12$v56HehtqU1xuHaNcOxeQo.SYTZLv31GM7V5lgGaEV0JPfelgDXP2O', 1);
+INSERT INTO `usuarios` (`id`, `email`, `password`, `id_rol`) VALUES
+(5, 'editor@editor.com', '$2y$10$ma.XyeXWTY/BBHE1QK25XeN9nov/bQed9WNC4xOSd/JgLHOXxMxpi', 2),
+(6, 'admin@admin.com', '$2y$10$nojQzK6gNMeexVZfb5sp2ulGquZBmcor5S/WXFqsk.vo2K3etqhES', 1),
+(7, 'test@test.com', '$2y$10$BWs/loLc8XOrzLQPYk4czu.6G.4wj5GLSAlpfsnVXWLnCwx8kimwK', 0);
 
 -- --------------------------------------------------------
-
 
 --
 -- Índices para tablas volcadas
@@ -176,7 +173,6 @@ ALTER TABLE `user`
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
-
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
@@ -209,8 +205,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=125;
-
+  MODIFY `id` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Restricciones para tablas volcadas
