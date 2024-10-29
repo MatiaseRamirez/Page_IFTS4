@@ -114,7 +114,7 @@ $query_noticia =  "INSERT INTO `noticias`
 
 
 if($conexion->query($query_noticia) ===true){
-         header('location: http://localhost/gaceta/views/panel/panel_profesor.php');
+         header('location: http://localhost/PAGE_IFTS4/gaceta/views/panel/panel_profesor.php');
 
         echo "Se Creo la noticia";
         $ultimo_id_noticia = $conexion->insert_id;

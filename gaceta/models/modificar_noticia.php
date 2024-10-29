@@ -28,7 +28,7 @@ if ($_POST) {
             echo "<div class='mensaje-exito'>Noticia modificada correctamente.</div>";
             echo "<script>
                     setTimeout(function() {
-                        window.location.href = 'http://localhost/gaceta/views/panel/panel_profesor.php';
+                        window.location.href = 'http://localhost/PAGE_IFTS4/gaceta/views/panel/panel_profesor.php';
                     }, 2000); // Vuelve atrás después de 2 segundos
                   </script>";
         }

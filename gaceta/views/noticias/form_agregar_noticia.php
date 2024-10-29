@@ -6,8 +6,15 @@
     <title>Agregar noticias</title>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../assets/css/formulario.css">
+    <link rel="stylesheet" href="../../../css/navegacion.css">
+
 </head>
 <body>
+<?php 
+    require '../../../admin/navegacion_admin.php';
+?>
+
+
     <div class="img_container">
         <img src="../../assets/img/logo.png" alt="Logo" class="logo">
     </div>

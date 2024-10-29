@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modificar Noticia</title>
     <link rel="stylesheet" href="../../assets/css/formulario.css">
+    <link rel="stylesheet" href="../../../css/navegacion.css">
+
 </head>
 <body>
-
+<?php 
+    require '../../../admin/navegacion_admin.php';
+?>
     <div class="img_container">
         <img src="../../assets/img/logo.png" alt="Logo" class="logo">
     </div>

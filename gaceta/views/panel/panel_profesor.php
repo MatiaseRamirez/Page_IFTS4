@@ -32,8 +32,14 @@ $resultado = mysqli_query($conexion, $sql);
     <title>Panel de Profesores</title>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../assets/css/formulario.css">
+    <link rel="stylesheet" href="../../../css/navegacion.css">
+
 </head>
 <body>
+<?php 
+    require '../../../admin/navegacion_admin.php';
+?>
+<!-- ACA COMIENTA EL PANEL DEL PROFESOR  -->
     <header>
         <h1 class="titulo-principal">Editor de Noticias</h1>
         <img class="logo" src="../../assets/img/logo.png" alt="logo-ifts">

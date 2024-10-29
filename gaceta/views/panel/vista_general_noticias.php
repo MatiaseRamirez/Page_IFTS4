@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/navegacion.css">
+
     <title>Noticias IFTS</title>
 </head>
 <body>
+<?php 
+    require '../../../admin/navegacion_admin.php';
+?>
 
     <header>
         <h1 class="titulo-principal">Noticias</h1><br>

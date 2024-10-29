@@ -36,6 +36,8 @@
             <li><a href="../carreras.php">* Equipo Docente</a> </li>
             <li><a href="../index.php">* Equipo No Docente</a> </li> -->
             <li><a href="#">* Reglamento orgánico de los IFTS</a> </li>
+            <li><a href="http://localhost/PAGE_IFTS4/gaceta/views/panel/panel_profesor.php">* GACETA PARA SUBIR NOTICIAS</a> </li>
+
             <!-- <li><a href="../contacto.php">* Contacto</a> </li> -->
           </ul>
         </li>
@@ -62,6 +64,7 @@
             <li><a href="#">* Horarios de cursada</a></li>
             <li><a target="_blanck" href="https://aulasvirtuales.bue.edu.ar/">* Acceso al aula virtual</a></li>
             <li><a target="_blanck" href="https://guarani-autogestionagencia.bue.edu.ar/">* Acceso al SIU Guaraní</a></li>
+            <li><a href="http://localhost/PAGE_IFTS4/gaceta/views/panel/vista_general_noticias.php">GACETA</a></li>
             <!-- <li><a href="#">* Reportar problemas de acceso al aula/siu</a></li> -->
             <!-- <li><a href="#">* Otros Trámites</a></li> -->
           </ul>
