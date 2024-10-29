@@ -5,7 +5,7 @@
 
         $contador=0;
 
-        $base=new PDO("mysql:host=localhost:8081; dbname=ifts04", "root", "");
+        $base=new PDO("mysql:host=localhost; dbname=ifts04", "root", "");
         $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         $sql= "SELECT * FROM usuarios WHERE email = :usu";
