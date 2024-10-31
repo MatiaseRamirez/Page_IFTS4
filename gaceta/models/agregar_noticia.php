@@ -59,7 +59,7 @@ if ($tamanio_imagen <= 2000000) {
     if ($tipo_imagen == "image/jpg" || $tipo_imagen == "image/png" || $tipo_imagen == "image/gif" || $tipo_imagen == "image/jpeg") {
 
         // Define la carpeta de destino
-        $carpeta_destino = $_SERVER['DOCUMENT_ROOT'] . '/gaceta/assets/img/noticias/';
+        $carpeta_destino = $_SERVER['DOCUMENT_ROOT'] . 'PAGE_IFTS4/gaceta/assets/img/noticias/';
         $carpeta_destino = addslashes($carpeta_destino);
 
         // Mueve la imagen al destino
@@ -80,7 +80,7 @@ if ($tamanio_doc <= 15000000) {
     if ($tipo_doc == "application/pdf") {
 
         // Define la carpeta de destino
-        $carpeta_destino = $_SERVER['DOCUMENT_ROOT'] . '/gaceta/assets/docs/noticias/';
+        $carpeta_destino = $_SERVER['DOCUMENT_ROOT'] . 'PAGE_IFTS4/gaceta/assets/docs/noticias/';
         $carpeta_destino = addslashes($carpeta_destino);
 
         // Mueve la imagen al destino
