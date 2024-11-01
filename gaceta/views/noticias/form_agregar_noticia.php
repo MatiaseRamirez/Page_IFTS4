@@ -78,12 +78,12 @@
             
         <div class="form_group">
             <label for="resumen">Ingrese un resumen de la noticia</label>
-            <textarea name="resumen" id="resumen" rows="10" placeholder="Ingresa un Resumen de la Noticia (Máximo 500 caracteres)" required></textarea>
+            <textarea name="resumen" id="resumen" rows="10" placeholder="Ingresa un Resumen de la Noticia (Máximo 500 caracteres)" maxlength="500" required></textarea>
         </div>
 
         <div class="form_group">
             <label for="contenido">Ingrese la noticia</label>
-            <textarea name="contenido" id="contenido" rows="50" placeholder="Ingresa el Contenido de la Noticia (Máximo 4000 caracteres)" required></textarea>
+            <textarea name="contenido" id="contenido" rows="50" placeholder="Ingresa el Contenido de la Noticia (Máximo 4000 caracteres)" maxlength="4000" required></textarea>
         </div>
 
         <div class="container-botones">
